@@ -3,9 +3,8 @@ title: SponsorStack
 emoji: ✨
 colorFrom: purple
 colorTo: pink
-sdk: gradio
-sdk_version: 6.26.0
-app_file: app.py
+sdk: static
+app_file: index.html
 pinned: false
 license: mit
 short_description: Creator sponsorship pricing, packages, and pitches.
@@ -13,7 +12,7 @@ short_description: Creator sponsorship pricing, packages, and pitches.
 
 # SponsorStack
 
-SponsorStack helps creators and talent managers price sponsorships using reach, engagement, deliverables, production effort, usage rights, exclusivity, and urgency. It generates package anchors, a brand pitch, and a downloadable rate card.
+SponsorStack helps creators and talent managers price sponsorships using reach, engagement, deliverables, production effort, usage rights, exclusivity, and urgency. The public Space runs entirely in the browser; the Python/Gradio implementation remains included for local use and customization.
 
 ## Why buyers pay for it
 
