@@ -1,5 +1,5 @@
 ---
-title: SponsorStack
+title: SkaiStack
 emoji: ✨
 colorFrom: purple
 colorTo: pink
@@ -10,9 +10,9 @@ license: mit
 short_description: Creator sponsorship pricing, packages, and pitches.
 ---
 
-# SponsorStack
+# SkaiStack
 
-SponsorStack helps creators and talent managers price sponsorships using reach, engagement, deliverables, production effort, usage rights, exclusivity, and urgency. The public Space runs entirely in the browser; the Python/Gradio implementation remains included for local use and customization.
+SkaiStack helps creators and talent managers price sponsorships using reach, engagement, deliverables, production effort, usage rights, exclusivity, and urgency. The public Space runs entirely in the browser; the Python/Gradio implementation remains included for local use and customization.
 
 ## Why buyers pay for it
 

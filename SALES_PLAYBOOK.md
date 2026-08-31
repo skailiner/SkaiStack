@@ -1,4 +1,4 @@
-# SponsorStack sales playbook
+# SkaiStack sales playbook
 
 ## Ideal first buyer
 

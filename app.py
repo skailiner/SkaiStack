@@ -98,7 +98,7 @@ Best,
 
 Rates are planning estimates and exclude applicable tax. Final pricing depends on the confirmed brief, revisions, licensing, whitelisting, exclusivity, and production requirements.
 """
-    target = tempfile.NamedTemporaryFile(mode="w", suffix="-rate-card.md", prefix="sponsorstack-", delete=False, encoding="utf-8")
+    target = tempfile.NamedTemporaryFile(mode="w", suffix="-rate-card.md", prefix="skaistack-", delete=False, encoding="utf-8")
     with target:
         target.write(rate_card)
     rationale = f"""### Why this rate
@@ -111,8 +111,8 @@ Treat the floor as private. Send the recommended quote or lead with the premium 
 
 
 def build_app() -> gr.Blocks:
-    with gr.Blocks(title="SponsorStack — Price creator deals with confidence") as demo:
-        gr.HTML('<section class="hero"><div class="eyebrow">Creator partnership desk</div><h1>SponsorStack</h1><p>Turn reach, rights, and production effort into a defensible brand-deal rate.</p></section>')
+    with gr.Blocks(title="SkaiStack — Price creator deals with confidence") as demo:
+        gr.HTML('<section class="hero"><div class="eyebrow">Creator partnership desk</div><h1>SkaiStack</h1><p>Turn reach, rights, and production effort into a defensible brand-deal rate.</p></section>')
         with gr.Row():
             with gr.Column(scale=5):
                 with gr.Row():

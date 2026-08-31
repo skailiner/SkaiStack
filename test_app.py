@@ -3,7 +3,7 @@ import unittest
 from app import build_rate_card, price_campaign
 
 
-class SponsorStackTests(unittest.TestCase):
+class SkaiStackTests(unittest.TestCase):
     def test_rights_increase_price(self):
         base = price_campaign(50000, 20000, 5, "Technology", "YouTube", ["Short-form video"], "Organic repost only", "None", "Standard", 5, 50, 0)
         licensed = price_campaign(50000, 20000, 5, "Technology", "YouTube", ["Short-form video"], "12-month paid usage", "None", "Standard", 5, 50, 0)
